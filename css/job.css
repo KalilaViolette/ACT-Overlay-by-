@@ -1,0 +1,268 @@
+/*
+	--- Notes ---
+Class Job icons are located in [..icon/062000] within the dats
+
+*/
+
+:root {
+  --tank: rgba(45, 49, 128);
+  --dps: rgba(115, 40, 40);
+  --healer: rgba(52, 102, 36);
+}
+
+/* [0] Adventurer */
+	.item[data-job=ADV]>.datas{color:rgb(255, 255, 255);} /* Text Color */
+	.item[data-job=ADV]>.icon{background-image:url(../icon/ADV.png); background-position:0px 2px; background-color:rgba(0,0,0,0);} /* Job Icon Background */
+	.item[data-job=ADV]>.leftdeco::after{border-color:rgba(0,0,0);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=ADV]>.datas>.bar{background:rgb(0,0,0);} /* Progress Bar Color */
+	.item[data-job=ADV]>.datas>.bar::before{border-color:transparent transparent transparent rgb(0,0,0);} /* Right Decoration Color for Progress Bar */
+/* [1] Gladiator 剣 */
+	.item[data-job=GLA]>.datas{color:rgb(216, 240, 239);} /* Text Color */
+	.item[data-job=GLA]>.icon{background-image:url(../icon/GLA.png); background-position:0px 2px; background-color: var(--tank);} /* Job Icon Background */
+	.item[data-job=GLA]>.leftdeco::after{border-color:rgba(128, 154, 161);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=GLA]>.datas>.bar{background:rgb(128, 154, 161);} /* Progress Bar Color */
+	.item[data-job=GLA]>.datas>.bar::before{border-color:transparent transparent transparent rgb(128, 154, 161);} /* Right Decoration Color for Progress Bar */
+/* [2] Pugilist 格 */
+	.item[data-job=PGL]>.datas{color:rgb(237, 223, 189);} /* Text Color */
+	.item[data-job=PGL]>.icon{background-image:url(../icon/PGL.png); background-position:0px 2px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=PGL]>.leftdeco::after{border-color:rgba(238, 222, 57);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=PGL]>.datas>.bar{background:rgb(238, 222, 57);} /* Progress Bar Color */
+	.item[data-job=PGL]>.datas>.bar::before{border-color:transparent transparent transparent rgb(238, 222, 57);} /* Right Decoration Color for Progress Bar */
+/* [3] Marauder 斧 */
+	.item[data-job=MRD]>.datas{color:rgb(241, 139, 106);} /* Text Color */
+	.item[data-job=MRD]>.icon{background-image:url(../icon/MRD.png); background-position:0px 2px; background-color: var(--tank);} /* Job Icon Background */
+	.item[data-job=MRD]>.leftdeco::after{border-color:rgba(141, 42, 41);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=MRD]>.datas>.bar{background:rgb(141, 42, 41);} /* Progress Bar Color */
+	.item[data-job=MRD]>.datas>.bar::before{border-color:transparent transparent transparent rgb(141, 42, 41);} /* Right Decoration Color for Progress Bar */
+/* [4] Lancer 槍 */
+	.item[data-job=LNC]>.datas{color:rgb(184, 192, 232);} /* Text Color */
+	.item[data-job=LNC]>.icon{background-image:url(../icon/LNC.png); background-position:0px 2px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=LNC]>.leftdeco::after{border-color:rgba(73, 89, 179);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=LNC]>.datas>.bar{background:rgb(73, 89, 179);} /* Progress Bar Color */
+	.item[data-job=LNC]>.datas>.bar::before{border-color:transparent transparent transparent rgb(73, 89, 179);} /* Right Decoration Color for Progress Bar */
+/* [5] Archer 弓 */
+	.item[data-job=ARC]>.datas{color:rgb(211, 225, 86);} /* Text Color */
+	.item[data-job=ARC]>.icon{background-image:url(../icon/ARC.png); background-position:0px 2px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=ARC]>.leftdeco::after{border-color:rgba(128, 155, 61);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=ARC]>.datas>.bar{background:rgb(128, 155, 61);} /* Progress Bar Color */
+	.item[data-job=ARC]>.datas>.bar::before{border-color:transparent transparent transparent rgb(128, 155, 61);} /* Right Decoration Color for Progress Bar */
+/* [6] Conjurer 幻 */
+	.item[data-job=CNJ]>.datas{color:rgb(248, 244, 215);} /* Text Color */
+	.item[data-job=CNJ]>.icon{background-image:url(../icon/CNJ.png); background-position:0px 2px; background-color: var(--healer);} /* Job Icon Background */
+	.item[data-job=CNJ]>.leftdeco::after{border-color:rgba(190, 182, 145);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=CNJ]>.datas>.bar{background:rgb(190, 182, 145);} /* Progress Bar Color */
+	.item[data-job=CNJ]>.datas>.bar::before{border-color:transparent transparent transparent rgb(190, 182, 145);} /* Right Decoration Color for Progress Bar */
+/* [7] Thaumaturge 呪 */
+	.item[data-job=THM]>.datas{color:rgb(164, 125, 204);} /* Text Color */
+	.item[data-job=THM]>.icon{background-image:url(../icon/THM.png); background-position:0px 2px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=THM]>.leftdeco::after{border-color:rgba(65, 61, 79);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=THM]>.datas>.bar{background:rgb(65, 61, 79);} /* Progress Bar Color */
+	.item[data-job=THM]>.datas>.bar::before{border-color:transparent transparent transparent rgb(65, 61, 79);} /* Right Decoration Color for Progress Bar */
+/* [8] Carpenter 木 */
+	.item[data-job=CRP]>.datas{color:rgb(180, 190, 195);} /* Text Color */
+	.item[data-job=CRP]>.icon{background-image:url(../icon/CRP.png); background-position:0px 2px; background-color:rgba(99, 71, 168);} /* Job Icon Background */
+	.item[data-job=CRP]>.leftdeco::after{border-color:rgba(99, 71, 168);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=CRP]>.datas>.bar{background:rgb(99, 71, 168);} /* Progress Bar Color */
+	.item[data-job=CRP]>.datas>.bar::before{border-color:transparent transparent transparent rgb(99, 71, 168);} /* Right Decoration Color for Progress Bar */
+/* [9] Blacksmith 鍛 */
+	.item[data-job=BSM]>.datas{color:rgb(180, 190, 195);} /* Text Color */
+	.item[data-job=BSM]>.icon{background-image:url(../icon/BSM.png); background-position:0px 1px; background-color:rgba(99, 71, 168);} /* Job Icon Background */
+	.item[data-job=BSM]>.leftdeco::after{border-color:rgba(99, 71, 168);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=BSM]>.datas>.bar{background:rgb(99, 71, 168);} /* Progress Bar Color */
+	.item[data-job=BSM]>.datas>.bar::before{border-color:transparent transparent transparent rgb(99, 71, 168);} /* Right Decoration Color for Progress Bar */
+/* [10] Armorer 甲 */
+	.item[data-job=ARM]>.datas{color:rgb(180, 190, 195);} /* Text Color */
+	.item[data-job=ARM]>.icon{background-image:url(../icon/ARM.png); background-position:0px 1px; background-color:rgba(99, 71, 168);} /* Job Icon Background */
+	.item[data-job=ARM]>.leftdeco::after{border-color:rgba(99, 71, 168);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=ARM]>.datas>.bar{background:rgb(99, 71, 168);} /* Progress Bar Color */
+	.item[data-job=ARM]>.datas>.bar::before{border-color:transparent transparent transparent rgb(99, 71, 168);} /* Right Decoration Color for Progress Bar */
+/* [11] Goldsmith 彫 */
+	.item[data-job=GSM]>.datas{color:rgb(180, 190, 195);} /* Text Color */
+	.item[data-job=GSM]>.icon{background-image:url(../icon/GSM.png); background-position:0px 1px; background-color:rgba(99, 71, 168);} /* Job Icon Background */
+	.item[data-job=GSM]>.leftdeco::after{border-color:rgba(99, 71, 168);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=GSM]>.datas>.bar{background:rgb(99, 71, 168);} /* Progress Bar Color */
+	.item[data-job=GSM]>.datas>.bar::before{border-color:transparent transparent transparent rgb(99, 71, 168);} /* Right Decoration Color for Progress Bar */
+/* [12] Leatherworker 革 */
+	.item[data-job=LTW]>.datas{color:rgb(180, 190, 195);} /* Text Color */
+	.item[data-job=LTW]>.icon{background-image:url(../icon/LTW.png); background-position:0px 1px; background-color:rgba(99, 71, 168);} /* Job Icon Background */
+	.item[data-job=LTW]>.leftdeco::after{border-color:rgba(99, 71, 168);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=LTW]>.datas>.bar{background:rgb(99, 71, 168);} /* Progress Bar Color */
+	.item[data-job=LTW]>.datas>.bar::before{border-color:transparent transparent transparent rgb(99, 71, 168);} /* Right Decoration Color for Progress Bar */
+/* [13] Weaver 裁 */
+	.item[data-job=WVR]>.datas{color:rgb(180, 190, 195);} /* Text Color */
+	.item[data-job=WVR]>.icon{background-image:url(../icon/WVR.png); background-position:0px 2px; background-color:rgba(99, 71, 168);} /* Job Icon Background */
+	.item[data-job=WVR]>.leftdeco::after{border-color:rgba(99, 71, 168);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=WVR]>.datas>.bar{background:rgb(99, 71, 168);} /* Progress Bar Color */
+	.item[data-job=WVR]>.datas>.bar::before{border-color:transparent transparent transparent rgb(99, 71, 168);} /* Right Decoration Color for Progress Bar */
+/* [14] Alchemist 錬 */
+	.item[data-job=ALC]>.datas{color:rgb(180, 190, 195);} /* Text Color */
+	.item[data-job=ALC]>.icon{background-image:url(../icon/ALC.png); background-position:0px 1px; background-color:rgba(99, 71, 168);} /* Job Icon Background */
+	.item[data-job=ALC]>.leftdeco::after{border-color:rgba(99, 71, 168);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=ALC]>.datas>.bar{background:rgb(99, 71, 168);} /* Progress Bar Color */
+	.item[data-job=ALC]>.datas>.bar::before{border-color:transparent transparent transparent rgb(99, 71, 168);} /* Right Decoration Color for Progress Bar */
+/* [15] Culinarian 調 */
+	.item[data-job=CUL]>.datas{color:rgb(180, 190, 195);} /* Text Color */
+	.item[data-job=CUL]>.icon{background-image:url(../icon/CUL.png); background-position:0px 2px; background-color:rgba(99, 71, 168);} /* Job Icon Background */
+	.item[data-job=CUL]>.leftdeco::after{border-color:rgba(99, 71, 168);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=CUL]>.datas>.bar{background:rgb(99, 71, 168);} /* Progress Bar Color */
+	.item[data-job=CUL]>.datas>.bar::before{border-color:transparent transparent transparent rgb(99, 71, 168);} /* Right Decoration Color for Progress Bar */
+/* [16] Miner 採 */
+	.item[data-job=MIN]>.datas{color:rgb(178, 186, 189);} /* Text Color */
+	.item[data-job=MIN]>.icon{background-image:url(../icon/MIN.png); background-position:0px 1px; background-color:rgba(162, 135, 61);} /* Job Icon Background */
+	.item[data-job=MIN]>.leftdeco::after{border-color:rgba(162, 135, 61);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=MIN]>.datas>.bar{background:rgb(162, 135, 61);} /* Progress Bar Color */
+	.item[data-job=MIN]>.datas>.bar::before{border-color:transparent transparent transparent rgb(162, 135, 61);} /* Right Decoration Color for Progress Bar */
+/* [17] Botanist 園 */
+	.item[data-job=BTN]>.datas{color:rgb(178, 186, 189);} /* Text Color */
+	.item[data-job=BTN]>.icon{background-image:url(../icon/BTN.png); background-position:0px 2px; background-color:rgba(162, 135, 61);} /* Job Icon Background */
+	.item[data-job=BTN]>.leftdeco::after{border-color:rgba(162, 135, 61);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=BTN]>.datas>.bar{background:rgb(162, 135, 61);} /* Progress Bar Color */
+	.item[data-job=BTN]>.datas>.bar::before{border-color:transparent transparent transparent rgb(162, 135, 61);} /* Right Decoration Color for Progress Bar */
+/* [18] Fisher 漁 */
+	.item[data-job=FSH]>.datas{color:rgb(178, 186, 189);} /* Text Color */
+	.item[data-job=FSH]>.icon{background-image:url(../icon/FSH.png); background-position:0px 2px; background-color:rgba(162, 135, 61);} /* Job Icon Background */
+	.item[data-job=FSH]>.leftdeco::after{border-color:rgba(162, 135, 61);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=FSH]>.datas>.bar{background:rgb(162, 135, 61);} /* Progress Bar Color */
+	.item[data-job=FSH]>.datas>.bar::before{border-color:transparent transparent transparent rgb(162, 135, 61);} /* Right Decoration Color for Progress Bar */
+/* [19] Paladin ナ */
+	.item[data-job=PLD]>.datas{color:rgb(216, 240, 239);} /* Text Color */
+	.item[data-job=PLD]>.icon{background-image:url(../icon/PLD.png); background-position:0px 2px; background-color: var(--tank);} /* Job Icon Background */
+	.item[data-job=PLD]>.leftdeco::after{border-color:rgba(128, 154, 161);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=PLD]>.datas>.bar{background:rgb(128, 154, 161);} /* Progress Bar Color */
+	.item[data-job=PLD]>.datas>.bar::before{border-color:transparent transparent transparent rgb(128, 154, 161);} /* Right Decoration Color for Progress Bar */
+/* [20] Monk モ */
+	.item[data-job=MNK]>.datas{color:rgb(237, 223, 189);} /* Text Color */
+	.item[data-job=MNK]>.icon{background-image:url(../icon/MNK.png); background-position:0px 2px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=MNK]>.leftdeco::after{border-color:rgba(238, 222, 57);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=MNK]>.datas>.bar{background:rgb(238, 222, 57);} /* Progress Bar Color */
+	.item[data-job=MNK]>.datas>.bar::before{border-color:transparent transparent transparent rgb(238, 222, 57);} /* Right Decoration Color for Progress Bar */
+/* [21] Warrior 戦 */
+	.item[data-job=WAR]>.datas{color:rgb(241, 139, 106);} /* Text Color */
+	.item[data-job=WAR]>.icon{background-image:url(../icon/WAR.png); background-position:0px 1px; background-color: var(--tank);} /* Job Icon Background */
+	.item[data-job=WAR]>.leftdeco::after{border-color:rgba(141, 42, 41);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=WAR]>.datas>.bar{background:rgb(141, 42, 41);} /* Progress Bar Color */
+	.item[data-job=WAR]>.datas>.bar::before{border-color:transparent transparent transparent rgb(141, 42, 41);} /* Right Decoration Color for Progress Bar */
+/* [22] Dragoon 竜 */
+	.item[data-job=DRG]>.datas{color:rgb(184, 192, 232);} /* Text Color */
+	.item[data-job=DRG]>.icon{background-image:url(../icon/DRG.png); background-position:0px 1px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=DRG]>.leftdeco::after{border-color:rgba(73, 89, 179);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=DRG]>.datas>.bar{background:rgb(73, 89, 179);} /* Progress Bar Color */
+	.item[data-job=DRG]>.datas>.bar::before{border-color:transparent transparent transparent rgb(73, 89, 179);} /* Right Decoration Color for Progress Bar */
+/* [23] Bard 吟 */
+	.item[data-job=BRD]>.datas{color:rgb(211, 225, 86);} /* Text Color */
+	.item[data-job=BRD]>.icon{background-image:url(../icon/BRD.png); background-position:0px 2px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=BRD]>.leftdeco::after{border-color:rgba(128, 155, 61);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=BRD]>.datas>.bar{background:rgb(128, 155, 61);} /* Progress Bar Color */
+	.item[data-job=BRD]>.datas>.bar::before{border-color:transparent transparent transparent rgb(128, 155, 61);} /* Right Decoration Color for Progress Bar */
+/* [24] White Mage 白 */
+	.item[data-job=WHM]>.datas{color:rgb(248, 244, 215);} /* Text Color */
+	.item[data-job=WHM]>.icon{background-image:url(../icon/WHM.png); background-position:0px 2px; background-color: var(--healer);} /* Job Icon Background */
+	.item[data-job=WHM]>.leftdeco::after{border-color:rgba(190, 182, 145);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=WHM]>.datas>.bar{background:rgb(190, 182, 145);} /* Progress Bar Color */
+	.item[data-job=WHM]>.datas>.bar::before{border-color:transparent transparent transparent rgb(190, 182, 145);} /* Right Decoration Color for Progress Bar */
+/* [25] Black Mage 黒 */
+	.item[data-job=BLM]>.datas{color:rgb(164, 125, 204);} /* Text Color */
+	.item[data-job=BLM]>.icon{background-image:url(../icon/BLM.png); background-position:0px 2px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=BLM]>.leftdeco::after{border-color:rgba(65, 61, 79);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=BLM]>.datas>.bar{background:rgb(65, 61, 79);} /* Progress Bar Color */
+	.item[data-job=BLM]>.datas>.bar::before{border-color:transparent transparent transparent rgb(65, 61, 79);} /* Right Decoration Color for Progress Bar */
+/* [26] Arcanist 巴 */
+	.item[data-job=ACN]>.datas{color:rgb(168, 221, 94);} /* Text Color */
+	.item[data-job=ACN]>.icon{background-image:url(../icon/ACN.png); background-position:0px 1px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=ACN]>.leftdeco::after{border-color:rgba(72, 125, 35);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=ACN]>.datas>.bar{background:rgb(72, 125, 35);} /* Progress Bar Color */
+	.item[data-job=ACN]>.datas>.bar::before{border-color:transparent transparent transparent rgb(72, 125, 35);} /* Right Decoration Color for Progress Bar */
+/* [27] Summoner 召 */
+	.item[data-job=SMN]>.datas{color:rgb(168, 221, 94);} /* Text Color */
+	.item[data-job=SMN]>.icon{background-image:url(../icon/SMN.png); background-position:0px 1px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=SMN]>.leftdeco::after{border-color:rgba(72, 125, 35);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=SMN]>.datas>.bar{background:rgb(72, 125, 35);} /* Progress Bar Color */
+	.item[data-job=SMN]>.datas>.bar::before{border-color:transparent transparent transparent rgb(72, 125, 35);} /* Right Decoration Color for Progress Bar */
+/* [28] Scholar 学 */
+	.item[data-job=SCH]>.datas{color:rgb(202, 212, 186);} /* Text Color */
+	.item[data-job=SCH]>.icon{background-image:url(../icon/SCH.png); background-position:0px 0px; background-color: var(--healer);} /* Job Icon Background */
+	.item[data-job=SCH]>.leftdeco::after{border-color:rgba(74, 67, 153);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=SCH]>.datas>.bar{background:rgb(74, 67, 153);} /* Progress Bar Color */
+	.item[data-job=SCH]>.datas>.bar::before{border-color:transparent transparent transparent rgb(74, 67, 153);} /* Right Decoration Color for Progress Bar */
+/* [29] Rogue 双 */
+	.item[data-job=ROG]>.datas{color:rgb(208, 42, 77);} /* Text Color */
+	.item[data-job=ROG]>.icon{background-image:url(../icon/ROG.png); background-position:0px 2px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=ROG]>.leftdeco::after{border-color:rgba(58, 46, 64);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=ROG]>.datas>.bar{background:rgb(58, 46, 64);} /* Progress Bar Color */
+	.item[data-job=ROG]>.datas>.bar::before{border-color:transparent transparent transparent rgb(58, 46, 64);} /* Right Decoration Color for Progress Bar */
+/* [30] Ninja 忍 */
+	.item[data-job=NIN]>.datas{color:rgb(208, 42, 77);} /* Text Color */
+	.item[data-job=NIN]>.icon{background-image:url(../icon/NIN.png); background-position:0px 0px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=NIN]>.leftdeco::after{border-color:rgba(58, 46, 64);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=NIN]>.datas>.bar{background:rgb(58, 46, 64);} /* Progress Bar Color */
+	.item[data-job=NIN]>.datas>.bar::before{border-color:transparent transparent transparent rgb(58, 46, 64);} /* Right Decoration Color for Progress Bar */
+/* [31] Machinist 機 */
+	.item[data-job=MCH]>.datas{color:rgb(181, 246, 239);} /* Text Color */
+	.item[data-job=MCH]>.icon{background-image:url(../icon/MCH.png); background-position:0px 2px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=MCH]>.leftdeco::after{border-color:rgba(97, 197, 194);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=MCH]>.datas>.bar{background:rgb(97, 197, 194);} /* Progress Bar Color */
+	.item[data-job=MCH]>.datas>.bar::before{border-color:transparent transparent transparent rgb(97, 197, 194);} /* Right Decoration Color for Progress Bar */
+/* [32] Dark Knight 暗 */
+	.item[data-job=DRK]>.datas{color:rgb(247, 101, 13);} /* Text Color */
+	.item[data-job=DRK]>.icon{background-image:url(../icon/DRK.png); background-position:0px 1px; background-color: var(--tank);} /* Job Icon Background */
+	.item[data-job=DRK]>.leftdeco::after{border-color:rgba(96, 34, 56);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=DRK]>.datas>.bar{background:rgb(96, 34, 56);} /* Progress Bar Color */
+	.item[data-job=DRK]>.datas>.bar::before{border-color:transparent transparent transparent rgb(96, 34, 56);} /* Right Decoration Color for Progress Bar */
+/* [33] Astrologian 占 */
+	.item[data-job=AST]>.datas{color:rgb(246, 212, 96);} /* Text Color */
+	.item[data-job=AST]>.icon{background-image:url(../icon/AST.png); background-position:0px 2px; background-color: var(--healer);} /* Job Icon Background */
+	.item[data-job=AST]>.leftdeco::after{border-color:rgba(146, 99, 55);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=AST]>.datas>.bar{background:rgb(146, 99, 55);} /* Progress Bar Color */
+	.item[data-job=AST]>.datas>.bar::before{border-color:transparent transparent transparent rgb(146, 99, 55);} /* Right Decoration Color for Progress Bar */
+/* [34] Samurai 侍 */
+	.item[data-job=SAM]>.datas{color:rgb(247, 208, 72);} /* Text Color */
+	.item[data-job=SAM]>.icon{background-image:url(../icon/SAM.png); background-position:0px 1px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=SAM]>.leftdeco::after{border-color:rgba(213, 157, 89);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=SAM]>.datas>.bar{background:rgb(213, 157, 89);} /* Progress Bar Color */
+	.item[data-job=SAM]>.datas>.bar::before{border-color:transparent transparent transparent rgb(213, 157, 89);} /* Right Decoration Color for Progress Bar */
+/* [35] Red Mage 赤 */
+	.item[data-job=RDM]>.datas{color:rgb(223, 186, 216);} /* Text Color */
+	.item[data-job=RDM]>.icon{background-image:url(../icon/RDM.png); background-position:0px 1px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=RDM]>.leftdeco::after{border-color:rgba(134, 46, 76);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=RDM]>.datas>.bar{background:rgb(134, 46, 76);} /* Progress Bar Color */
+	.item[data-job=RDM]>.datas>.bar::before{border-color:transparent transparent transparent rgb(134, 46, 76);} /* Right Decoration Color for Progress Bar */
+/* [36] Blue Mage 青 */
+	.item[data-job=BLU]>.datas{color:rgb(202, 234, 243);} /* Text Color */
+	.item[data-job=BLU]>.icon{background-image:url(../icon/BLU.png); background-position:0px 3px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=BLU]>.leftdeco::after{border-color:rgba(54, 96, 148);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=BLU]>.datas>.bar{background:rgb(54, 96, 148);} /* Progress Bar Color */
+	.item[data-job=BLU]>.datas>.bar::before{border-color:transparent transparent transparent rgb(54, 96, 148);} /* Right Decoration Color for Progress Bar */
+/* [37] Gunbreaker ガ */
+	.item[data-job=GNB]>.datas{color:rgb(243, 243, 192);} /* Text Color */
+	.item[data-job=GNB]>.icon{background-image:url(../icon/GNB.png); background-position:0px 2px; background-color: var(--tank);} /* Job Icon Background */
+	.item[data-job=GNB]>.leftdeco::after{border-color:rgba(165, 148, 71);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=GNB]>.datas>.bar{background:rgb(165, 148, 71);} /* Progress Bar Color */
+	.item[data-job=GNB]>.datas>.bar::before{border-color:transparent transparent transparent rgb(165, 148, 71);} /* Right Decoration Color for Progress Bar */
+/* [38] Dancer 踊 */
+	.item[data-job=DNC]>.datas{color:rgb(250, 240, 232);} /* Text Color */
+	.item[data-job=DNC]>.icon{background-image:url(../icon/DNC.png); background-position:0px 1px; background-color: var(--dps);} /* Job Icon Background */
+	.item[data-job=DNC]>.leftdeco::after{border-color:rgba(214, 181, 164);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=DNC]>.datas>.bar{background:rgb(214, 181, 164);} /* Progress Bar Color */
+	.item[data-job=DNC]>.datas>.bar::before{border-color:transparent transparent transparent rgb(214, 181, 164);} /* Right Decoration Color for Progress Bar */
+
+
+
+
+/* Avatar */
+	.item[data-job=AVA]>.datas{color:rgb(250, 240, 232);} /* Text Color */
+	.item[data-job=AVA]>.icon{background-image:url(../icon/AVA.png); background-position:0px 2px; background-color:rgba(195, 242, 239);} /* Job Icon Background */
+	.item[data-job=AVA]>.leftdeco::after{border-color:rgba(195, 242, 239);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=AVA]>.datas>.bar{background:rgb(195, 242, 239);} /* Progress Bar Color */
+	.item[data-job=AVA]>.datas>.bar::before{border-color:transparent transparent transparent rgb(195, 242, 239);} /* Right Decoration Color for Progress Bar */
+/* Chocobo */
+	.item[data-job=CBO]>.datas{color:rgb(250, 240, 232);} /* Text Color */
+	.item[data-job=CBO]>.icon{background-image:url(../icon/CBO.png); background-position:0px 2px; background-color:rgba(248, 229, 134);} /* Job Icon Background */
+	.item[data-job=CBO]>.leftdeco::after{border-color:rgba(248, 229, 134);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=CBO]>.datas>.bar{background:rgb(248, 229, 134);} /* Progress Bar Color */
+	.item[data-job=CBO]>.datas>.bar::before{border-color:transparent transparent transparent rgb(248, 229, 134);} /* Right Decoration Color for Progress Bar */
+/* Limit Break */
+	.item[data-job=LMB]>.datas{color:rgb(246, 214, 167);} /* Text Color */
+	.item[data-job=LMB]>.icon{background-image:url(../icon/LMB.png); background-position:0px 0px; background-color:rgba(0,0,0,0);} /* Job Icon Background */
+	.item[data-job=LMB]>.leftdeco::after{border-color:rgba(174, 73, 39);} /* Left Decoration Color for Progress Bar */
+	.item[data-job=LMB]>.datas>.bar{background:rgb(174, 73, 39);} /* Progress Bar Color */
+	.item[data-job=LMB]>.datas>.bar::before{border-color:transparent transparent transparent rgb(174, 73, 39);} /* Right Decoration Color for Progress Bar */
